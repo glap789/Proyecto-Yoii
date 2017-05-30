@@ -1,0 +1,20 @@
+body {
+ margin: 0;
+ overflow-Y: hidden; 
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    background: #222;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+
+.cerrar {
+    transform: translateY(-100%);
+    transition: all 0.5s;
+}
